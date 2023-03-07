@@ -1,27 +1,30 @@
 <!doctype html>
 <html lang="nl">
-	
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Howdy FED2223</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <meta charset="UTF-8">
+    <meta name="author" content="jouw naam">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Howdy FED2223</title>
+
+    <link href="styles/style.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
 <body>
-	<h1>Howdy FED2223</h1>
+    <h1>Howdy FED2223</h1>
     <header>
-        <img id="logo" src="img/Transavia_logo_klein_wit-groen.png" alt="transavia logo">
+        <img class="headerlogo" id="logo" src="images/Transavia_logo_groen_horizontaal.png" alt="transavia logo">
+        <img class="account" id="account" src="images/transavia-account.png" alt="transavia Account">
+        <img class="Menubutton" id="Menu" src="images/menu-button.png" alt="Menu">
+
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="planenboek.html">Plan en boek</a></li>
                 <li>
-                    <a href="beheerjeboeking.html" >Beheer je boeking</a>
+                    <a href="beheerjeboeking.html">Beheer je boeking</a>
                 </li>
                 <li>
                     <a href="service.html">Service</a>
@@ -31,267 +34,282 @@
                 </li>
             </ul>
         </nav>
-         <nav>
+        <nav>
             <ul>
                 <li><a href="vluchstatus.html">Vluchtstatus</a></li>
                 <li><a href="onlineinchecken.html">Online inchecken</a></li>
                 <li>
-                    <a href="reisinspiratie.html" >Reisinspiratie</a>
+                    <a href="reisinspiratie.html">Reisinspiratie</a>
                 </li>
                 <li>
                     <a href="bestemmingen.html">Bestemmingen</a>
                 </li>
             </ul>
         </nav>
-        <p>Contact
-           Nederland(NL)
-            EUR
-        </p>
-    
+        <a>Contact</a>
+            <a>Nederland(NL)</a>
+            <a>EUR</a>
+        
+
     </header>
-    <section>
-    <h2>Waar wil je heen</h2>
-        <form>
-            <label>Vanaf</label>
-                <input type="text" placeholder="Vertrekluchthaven">
-            <label>Naar</label>
-                <input type="text" placeholder="Bestemming">
-            <label>Vertrek op</label>
-                <input type="date" placeholder="24 feb 2023">
-            <input type="checkbox">
-            <label>Terug op</label>
-                <input type="date" placeholder="28 feb 2023">
-            <label>Wie gaan er mee?</label>
-                <input type="number" placeholder="1 Volwassene">
-            <input type="checkbox">
+    <section class="section1">
+        <a class="fixedlink">Suggesties?</a>
+        <h2>Waar wil je heen</h2>
+        <form class="s1form">
+            <label class="s1label">Vanaf</label>
+            <input type="text" placeholder="Vertrekluchthaven">
+            <label class="s1label">Naar</label>
+            <input type="text" placeholder="Bestemming">
+            <label class="s1label">Vertrek op</label>
+            <input type="date" class="inputdate" placeholder="">
+            <input class="s1checkbox" type="checkbox">
+            <label class="s1label">Terug op</label>
+            <input type="date" class="inputdate" placeholder="">
+            <label class="s1label">Wie gaan er mee?</label>
+            <input type="number" placeholder="1 Volwassene">
+            <input class="s1checkbox" type="checkbox">
             <p> Toon prijzen in Flying Blue Miles</p>
-            <button>Zoeken</button>
-             <p href="">Uitgebreid zoeken</p>
-             <p href="">Meerdere bestemmingen toevoegen</p>
+            <button class="s1button"><img class="searchimg" id="zoeken" src="images/transavia-search.png" alt="zoeken logo">Zoeken</button>
+            <a href="">Uitgebreid zoeken</a>
+            <a href="">Meerdere bestemmingen toevoegen</a>
         </form>
-    
+
     </section>
-    <section>
+    <section class="section2">
         <a>
-        <h3>Op weg naar een nog betere reis</h3>
+            <h3>Op weg naar een nog betere reis</h3>
             <p>
                 Reizen betekent voor iedereen iets anders. Naar avontuurlijke plekken gaan, andere culturen ontdekken, bijzondere mensen ontmoeten of weer samen zijn. Wat betekent het voor jou? Bij Transavia willen we jou reis nog beter maken, nu en in de toekomst. onder andere met onze verbeterde services en zorg voor miliue en omgeving. Maar een echte goede reis is nog zoveel meer dan dat. Wil je weten wat we hier allemaal voor doen? We vertellen je er graag meer over.
             </p>
             <p href="">Ontdek onze goede reis</p>
         </a>
     </section>
-    <section>
-        <article>
-            <h3>Je boeking beheren</h3>
+    <section class="section3">
+        <article class="s3a1">
+            <img class="jeboekingbeherenimg" id="" src="images/JeBoekingBeheren.png" alt="Je Boeking Beheren">
+            <h3 class="s3h31">Je boeking beheren</h3>
             <p>
                 In Mijn Transavia kun je ruimbagage en bijzondere bagage boeken, een stoel reserveren, medische services aanmelden en je vliegticket omboeken.
             </p>
-            <button>Ga naar Mijn Transavia</button>
+            <button class="s3button1">Ga naar Mijn Transavia</button>
         </article>
-        <article>
-            <h3>Online inchecken</h3>
+        <article class="s3a2">
+            <img class="onlineincheckenimg" id="" src="images/online-inchecken.png" alt="Online Inchecken">
+            <h3 class="s3h32">Online inchecken</h3>
             <p>
                 Voor bijna al onze vluchten kun je vanaf 30 uur tot 4 uur voor vertrek online inchecken. Handig want dan kun je van tevoren je stoel kiezen.
             </p>
-            <button>Nu online inchecken</button>
+            <button class="s3button2">Nu online inchecken</button>
         </article>
     </section>
-        <a>
-            <dl>
-                <dt>Praag</dt>
-                    <dd>van Eindhoven</dd>
-            </dl>
-            <ul>
-                <li>€49*</li>
-            </ul>
-        </a>
-       <a>
-            <dl>
-                <dt>Kopenhagen</dt>
-                    <dd>van Eindhoven</dd>
-            </dl>
-            <ul>
-                <li>€49*</li>
-            </ul>
-        </a>
-       <a>
-            <dl>
-                <dt>Alicante</dt>
-                    <dd>van Amsterdam (Schiphol)</dd>
-            </dl>
-            <ul>
-                <li>€69*</li>
-            </ul>
-        </a>
-       <a>
-            <dl>
-                <dt>Barcelona</dt>
-                    <dd>van Amsterdam (Schiphol)</dd>
-            </dl>
-            <ul>
-                <li>€69*</li>
-            </ul>
-        </a>
-       <a>
-            <dl>
-                <dt>Ibiza</dt>
-                    <dd>van Amsterdam (Schiphol)</dd>
-            </dl>
-            <ul>
-                <li>€69*</li>
-            </ul>
-        </a>
-       <a>
-            <dl>
-                <dt>Innsbruck</dt>
-                    <dd>van Amsterdam (schiphol)</dd>
-                    <dd>van Brussel</dd>
-                    <dd>van Eindhoven</dd>
-                    <dd>van Rotterdam/Den Haag</dd>
-            </dl>
-            <ul>
-                <li>€69*</li>
-                <li>€39*</li>
-                <li>€44*</li>
-                <li>€60*</li>
-            </ul>
-        </a>
-    <a>
-            <dl>
-                <dt>Salzburg</dt>
-                    <dd>van Amsterdam (schiphol)</dd>
-                    <dd>van Brussel</dd>
-                    <dd>van Eindhoven</dd>
-                    <dd>van Rotterdam/Den Haag</dd>
-            </dl>
-            <ul>
-                <li>€69*</li>
-                <li>€39*</li>
-                <li>€44*</li>
-                <li>€56*</li>
-            </ul>
-        </a>
-    <a>
-            <dl>
-                <dt>Nice</dt>
-                    <dd>van Amsterdam (schiphol)</dd>
-                    <dd>van Eindhoven</dd>
-            </dl>
-            <ul>
-                <li>€69*</li>
-                <li>€49*</li>
-            </ul>
-        </a>
-    <a>
-            <dl>
-                <dt>Faro</dt>
-                    <dd>van Amsterdam (schiphol)</dd>
-            </dl>
-            <ul>
-                <li>€69*</li>
-            </ul>
-        </a>
-    <section>
+    <section class="section4">
         <h2>Laat je inspireren door onze bestemmingen</h2>
-        
+        <form class="s4form">
+            <a>
+                <dl>
+                    <dt>Praag</dt>
+                    <dd>van Eindhoven</dd>
+                </dl>
+                <ul>
+                    <li class="s4prijs">€49*</li>
+                </ul>
+            </a>
+            <a>
+                <dl>
+                    <dt>Kopenhagen</dt>
+                    <dd>van Eindhoven</dd>
+                </dl>
+                <ul>
+                    <li class="s4prijs">€49*</li>
+                </ul>
+            </a>
+            <a>
+                <dl>
+                    <dt>Alicante</dt>
+                    <dd>van Amsterdam (Schiphol)</dd>
+                </dl>
+                <ul>
+                    <li class="s4prijs">€69*</li>
+                </ul>
+            </a>
+            <a>
+                <dl>
+                    <dt>Barcelona</dt>
+                    <dd>van Amsterdam (Schiphol)</dd>
+                </dl>
+                <ul>
+                    <li class="s4prijs">€69*</li>
+                </ul>
+            </a>
+            <a>
+                <dl>
+                    <dt>Ibiza</dt>
+                    <dd>van Amsterdam (Schiphol)</dd>
+                </dl>
+                <ul>
+                    <li class="s4prijs">€69*</li>
+                </ul>
+            </a>
+            <a>
+                <dl>
+                    <dt>Innsbruck</dt>
+                    <dd>van Amsterdam (schiphol)</dd>
+                    <dd>van Brussel</dd>
+                    <dd>van Eindhoven</dd>
+                    <dd>van Rotterdam/Den Haag</dd>
+                </dl>
+                <ul>
+                    <li class="s4prijs">€69*</li>
+                    <li class="s4prijs">€39*</li>
+                    <li class="s4prijs">€44*</li>
+                    <li class="s4prijs">€60*</li>
+                </ul>
+            </a>
+            <a>
+                <dl>
+                    <dt>Salzburg</dt>
+                    <dd>van Amsterdam (schiphol)</dd>
+                    <dd>van Brussel</dd>
+                    <dd>van Eindhoven</dd>
+                    <dd>van Rotterdam/Den Haag</dd>
+                </dl>
+                <ul>
+                    <li class="s4prijs">€69*</li>
+                    <li class="s4prijs">€39*</li>
+                    <li class="s4prijs">€44*</li>
+                    <li class="s4prijs">€56*</li>
+                </ul>
+            </a>
+            <a>
+                <dl>
+                    <dt>Nice</dt>
+                    <dd>van Amsterdam (schiphol)</dd>
+                    <dd>van Eindhoven</dd>
+                </dl>
+                <ul>
+                    <li class="s4prijs">€69*</li>
+                    <li class="s4prijs">€49*</li>
+                </ul>
+            </a>
+            <a>
+                <dl>
+                    <dt>Faro</dt>
+                    <dd>van Amsterdam (schiphol)</dd>
+                </dl>
+                <ul>
+                    <li class="s4prijs">€69*</li>
+                </ul>
+            </a>
+        </form>
+
         <p>*Getoonde prijzen zijn vanaf-prijzen o.b.v. een enkele reis. De weergaven prijzen kunnen wijzigen afhankelijk van beschikbaarheid. Als je op tijd boekt, is er nog volop keuze in goedkope tickets.
         </p>
     </section>
-    <section>
+    <section class="section5">
+        <article class="s5a1">
+            <section class="s5a1s1">
+                <img class="s5img1" src="images/img1.png" alt="">
+            </section>
+            <section class="s5a1s2">
+                <h3 class="s5h31">Voor je gaat vliegen</h3>
+                <ul>
+                    <li>Drukte op de luchthavens</li>
+                    <li>Reisvoorwaarden corona</li>
+                    <li>Check-in informatie</li>
+                    <li>handbagageregels</li>
+                    <li>Stoel reserveren</li>
+                </ul>
+            </section>
+        </article>
+        <article class="s5a2">
+            <section class="s5a2s1">
+                <img class="s5img2" src="images/img2.png" alt="">
+            </section>
+            <section class="s5a2s2">
+                <h3 class="s5h32">Nieuws en tips</h3>
+                <ul>
+                    <li>Transavia App</li>
+                    <li>Pakketreis Transavia Holidays</li>
+                    <li>Thuisbezorgd aan boord</li>
+                    <li>Transavia verduurzaamt</li>
+                </ul>
+            </section>
+        </article>
+        <article class="s5a3">
+            <section class="s5a3s1">
+                <img class="s5img3" src="images/img3.png" alt="">
+            </section>
+            <section class="s5a3s2">
+                <h3 class="s5h33">Vraag en antwoord</h3>
+                <ul>
+                    <li>Vlucht wijzigen</li>
+                    <li>Vlucht annuleren</li>
+                    <li>Vlucht geannuleerd</li>
+                    <li>Alle veelgestelde vragen</li>
+                    <li>Contact</li>
+                </ul>
+            </section>
+        </article>
         <a>
-            <img src="" alt="">
-            <h3>Voor je gaat vliegen</h3>
-            <ul>
-                <li>Drukte op de luchthavens</li>
-                <li>Reisvoorwaarden corona</li>
-                <li>Check-in informatie</li>
-                <li>handbagageregels</li>
-                <li>Stoel reserveren</li>
-            </ul>
-        </a>
-          <a>
-            <img src="" alt="">
-            <h3>Nieuws en tips</h3>
-            <ul>
-                <li>Transavia App</li>
-                <li>Pakketreis Transavia Holidays</li>
-                <li>Thuisbezorgd aan boord</li>
-                <li>Transavia verduurzaamt</li>
-            </ul>
-        </a>
-            <a>
-            <img src="" alt="">
-            <h3>Vraag en antwoord</h3>
-            <ul>
-                <li>Vlucht wijzigen</li>
-                <li>Vlucht annuleren</li>
-                <li>Vlucht geannuleerd</li>
-                <li>Alle veelgestelde vragen</li>
-                <li>Contact</li>
-            </ul>
-        </a>
-        <a>
-            <h2>Reistips in je mailbox?</h2>
-            <p>Meld je aan voor onze online nieuwsbrief en je blijft op de hoogte van het laatste nieuws en aanbiedingen!</p>
+            <h2 class="s5h2">Reistips in je mailbox?</h2>
+            <p class="s5p">Meld je aan voor onze online nieuwsbrief en je blijft op de hoogte van het laatste nieuws en aanbiedingen!</p>
             <input type="email" placeholder="gebruiker@domein.com">
-            <button>Aanmelden</button>
+            <button class="s5button">Aanmelden</button>
         </a>
     </section>
-    <section>
-        <h3>Kunnen wij je helpen></h3>
-        <p>Bekijk alle veelgestelde vragen.</p>
-        <button>Ga naar ons help Center</button>
+    <section class="section6">
+        <h3 class="s6h3">Kunnen wij je helpen?</h3>
+        <p class="s6p">Bekijk alle veelgestelde vragen.</p>
+        <button class="s6button">Ga naar ons help Center</button>
     </section>
-<footer>
-   <section>
-    <label>Partner</label>
-       <nav>
-       <ul>
-            <li><a href="">Partner worden van transavia</a></li>
-            <li><a href="">Groepsreizen</a></li>
-            <li><a href="">Affiliates</a></li>
-            <li><a href="">Vlucht op maat</a></li>
-            <li><a href="">Ga naar de Partner Portal</a></li>
-            <li><a href="">Ga naar het Transavia Partner Platform</a></li>
-            <li><a href="">Ga naar het Developer Portal</a></li>
-            <li><a href="">API</a></li>
-        </ul>
-        </nav>    
-    <label>Laat je inspireren</label>
-       <nav> 
-        <ul>
-            <li><a href="">Boek een steden trip</a></li>
-            <li><a href="">Boek een last minute</a></li>
-            <li><a href="">Bekijk onze reistips</a></li>
-            <li><a href="">Bekijk onze aanbiedingen</a></li>
-            <li><a href="">Onze bestemmingen</a></li>
-            <li><a href="">Uitgebreid zoeken</a></li>
-            <li><a href="">Transavia Dichtbij</a></li>
-            <li><a href="">Transavia Holidays</a></li>
-        </ul>
-    </nav> 
-        <img src="" alt="">
-        <img src="" alt="">
-    </section>
-    <section>
-        <nav>
-            <ul>
-                <li><a href="">Vervoersvoorwaarden</a></li>
-                <li><a href="">E.U. notice</a></li>
-                <li><a href="">Privacy</a></li>
-                <li><a href="">Disclaimer</a></li>
-                <li><a href="">Veilig betalen</a></li>
-                <li><a href="">Voorwaarden voor herroutering, terugbetaling en creditnota's</a></li>
-                <li><a href="">Cookiebeleid</a></li>
-                <li><a href="">Gecoordineerde meldig van kwetsbaarheden</a></li>
-                <li><a href="">Gekoppelde reisarrangementen</a></li>
-            </ul>
-        </nav>
-        <img src="" alt="">
-    </section>
-</footer>    
+    <footer>
+        <section class="section7">
+            <label class="s7label1">Partner</label>
+            <nav class="s7nav1">
+                <ul>
+                    <li><a href="">Partner worden van transavia</a></li>
+                    <li><a href="">Groepsreizen</a></li>
+                    <li><a href="">Affiliates</a></li>
+                    <li><a href="">Vlucht op maat</a></li>
+                    <li><a href="">Ga naar de Partner Portal</a></li>
+                    <li><a href="">Ga naar het Transavia Partner Platform</a></li>
+                    <li><a href="">Ga naar het Developer Portal</a></li>
+                    <li><a href="">API</a></li>
+                </ul>
+            </nav>
+            <label class="s7label2">Laat je inspireren</label>
+            <nav class="s7nav2">
+                <ul>
+                    <li><a href="">Boek een steden trip</a></li>
+                    <li><a href="">Boek een last minute</a></li>
+                    <li><a href="">Bekijk onze reistips</a></li>
+                    <li><a href="">Bekijk onze aanbiedingen</a></li>
+                    <li><a href="">Onze bestemmingen</a></li>
+                    <li><a href="">Uitgebreid zoeken</a></li>
+                    <li><a href="">Transavia Dichtbij</a></li>
+                    <li><a href="">Transavia Holidays</a></li>
+                </ul>
+            </nav>
+            <img class="s7img1" src="images/app-store-badge.png" alt="Download on the App store">
+            <img class="s7img2" src="images/google-play-badge.png" alt="Get in on Google Play">
+        </section>
+        <section class="section8">
+            <nav class="s8nav">
+                <ul>
+                    <li><a href="">Vervoersvoorwaarden</a></li>
+                    <li><a href="">E.U. notice</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Disclaimer</a></li>
+                    <li><a href="">Veilig betalen</a></li>
+                    <li><a href="">Voorwaarden voor herroutering, terugbetaling en creditnota's</a></li>
+                    <li><a href="">Cookiebeleid</a></li>
+                    <li><a href="">Gecoordineerde meldig van kwetsbaarheden</a></li>
+                    <li><a href="">Gekoppelde reisarrangementen</a></li>
+                </ul>
+            </nav>
+            <img class=" s8img" src="images/Transavia_logo_groen_horizontaal.png" alt="Transavia logo">
+        </section>
+    </footer>
 
-	<script defer src="scripts/script.js"></script>
-</body>
-	
-</html>
+    <script defer src="scripts/script.js"></script>
+</body></html>
