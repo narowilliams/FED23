@@ -13,62 +13,65 @@
 </head>
 
 <body>
-    <h1>Howdy FED2223</h1>
+    <h1>Goedkope vliegtickets boek je bij transavia</h1>
     <header>
-        <img class="headerlogo" id="logo" src="images/Transavia_logo_groen_horizontaal.png" alt="transavia logo">
+        <img class="headerlogo" id="logo" src="images/Transavia_logo_groen_horizontaal.png" alt="Go Home">
         <img class="account" id="account" src="images/transavia-account.png" alt="transavia Account">
-        <img class="Menubutton" id="Menu" src="images/menu-button.png" alt="Menu">
 
+
+        <!-- de open button -->
+        <!-- de button is niet relevant voor screenreaders -->
+        <!-- met aria-hidden="true" 'verstop' je de button voor ze -->
+        <button aria-hidden="true"><img src="images/menu-button.png" alt="" /></button>
+
+
+        <!--  het menu -->
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="planenboek.html">Plan en boek</a></li>
-                <li>
-                    <a href="beheerjeboeking.html">Beheer je boeking</a>
-                </li>
-                <li>
-                    <a href="service.html">Service</a>
-                </li>
-                <li>
-                    <a href="coronavirus.html">Coronvirus</a>
-                </li>
-            </ul>
+            <section>
+                <!-- de sluit button -->
+                <!-- de button is ook niet relevant voor screenreaders -->
+                <button aria-hidden="true"><img src="images/menu-button-active.png" alt="" /></button>
+
+                <ul>
+                    <li><a class="active"><img src="" alt=""> Home</a></li>
+                    <li><a href="#"><img src="" alt=""> Plan en boek</a></li>
+                    <li><a href="#"><img src="" alt=""> Beheer je boeking</a></li>
+                    <li><a href="#"><img src="" alt=""> Service</a></li>
+                    <li><a href="#"><img src="" alt=""> Corona virus</a></li>
+                </ul>
+                <a>Home</a>
+            </section>
+            <section>
+                <ul>
+                    <li><a href="vluchstatus.html">Vluchtstatus</a></li>
+                    <li><a href="onlineinchecken.html">Online inchecken</a></li>
+                    <li>
+                        <a href="reisinspiratie.html">Reisinspiratie</a>
+                    </li>
+                    <li>
+                        <a href="bestemmingen.html">Bestemmingen</a>
+                    </li>
+                </ul>
+            </section>
         </nav>
-        <nav>
-            <ul>
-                <li><a href="vluchstatus.html">Vluchtstatus</a></li>
-                <li><a href="onlineinchecken.html">Online inchecken</a></li>
-                <li>
-                    <a href="reisinspiratie.html">Reisinspiratie</a>
-                </li>
-                <li>
-                    <a href="bestemmingen.html">Bestemmingen</a>
-                </li>
-            </ul>
-        </nav>
-        <a>Contact</a>
-            <a>Nederland(NL)</a>
-            <a>EUR</a>
-        
 
     </header>
     <section class="section1">
         <a class="fixedlink">Suggesties?</a>
         <h2>Waar wil je heen</h2>
         <form class="s1form">
-            <label class="s1label">Vanaf</label>
-            <input type="text" placeholder="Vertrekluchthaven">
-            <label class="s1label">Naar</label>
-            <input type="text" placeholder="Bestemming">
-            <label class="s1label">Vertrek op</label>
-            <input type="date" class="inputdate" placeholder="">
-            <input class="s1checkbox" type="checkbox">
-            <label class="s1label">Terug op</label>
-            <input type="date" class="inputdate" placeholder="">
-            <label class="s1label">Wie gaan er mee?</label>
-            <input type="number" placeholder="1 Volwassene">
-            <input class="s1checkbox" type="checkbox">
-            <p> Toon prijzen in Flying Blue Miles</p>
+            <label class="s1label1">Vanaf</label>
+            <input class=" s1input1" type="text" placeholder="Vertrekluchthaven">
+            <label class="s1label2">Naar</label>
+            <input class=" s1input2" type="text" placeholder="Bestemming">
+            <label class="s1label3">Vertrek op</label>
+            <input class="s1checkbox1" type="checkbox">
+            <label class="s1label4">Terug op</label>
+            <input class=" s1input3" type="date" class="inputdate" placeholder="">
+            <input class=" s1input4" type="date" class="inputdate" placeholder="">
+            <label class="s1label5">Wie gaan er mee?</label>
+            <input class=" s1input5" type="number" placeholder="1 Volwassene">
+            <p><input class="s1checkbox2" type="checkbox"> Toon prijzen in Flying Blue Miles</p>
             <button class="s1button"><img class="searchimg" id="zoeken" src="images/transavia-search.png" alt="zoeken logo">Zoeken</button>
             <a href="">Uitgebreid zoeken</a>
             <a href="">Meerdere bestemmingen toevoegen</a>

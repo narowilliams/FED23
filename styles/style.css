@@ -1,12 +1,15 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
 
-button, summary {
-	cursor: pointer;
+button,
+summary {
+    cursor: pointer;
 }
 
 
@@ -17,9 +20,9 @@ button, summary {
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+    /* startje */
+    --color-text: #111;
+    --color-background: #eee;
 }
 
 
@@ -36,6 +39,10 @@ P {
     font-family: sans-serif;
 }
 
+H1 {
+    display: none;
+}
+
 H2 {
     color: #00D66C;
     font-family: sans-serif;
@@ -50,6 +57,10 @@ H3 {
 
 .headerlogo {
     width: 179px;
+}
+
+.account {
+    height: 35px
 }
 
 .fixedlink {
@@ -69,7 +80,7 @@ H3 {
     border-bottom-right-radius: 15px;
     text-align: center;
     padding: 7px;
-    
+
 }
 
 input {
@@ -81,7 +92,7 @@ input {
 .inputdate {
     font-family: sans-serif;
     letter-spacing: .em;
-    color: #606060 ;
+    color: #606060;
 }
 
 ul {
@@ -95,10 +106,80 @@ li {
 .s1form {
     font-family: sans-serif;
     font-size: 16px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content:center;
+   
 }
 
-.s1label {
+.s1label1 {
     font-weight: bold;
+    align-self;
+    flex: 1 1 300px;
+    margin-bottom: 10px;
+}
+
+.s1input1 {
+    width: px;
+    flex: 1px;
+    margin-bottom: 30px;  
+}
+
+.s1label2 {
+    font-weight: bold;
+    flex: 1 1 300px;
+    margin-bottom: 10px
+}
+
+.s1input2 {
+    width: ;
+    flex: 1 1 300px;
+    margin-bottom: 30px;
+}
+
+.s1label3 {
+    font-weight: bold;
+    flex: 1 1 180px;
+    margin-bottom: 10px
+}
+
+.s1input3 {
+    flex: 1 1 150px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.s1label4 {
+    font-weight: bold;
+    flex: 1 1 150px;
+    margin-bottom: 10px;
+}
+
+.s1input4 {
+    flex: 1 1 150px;
+    margin-bottom: 30px;
+}
+
+.s1checkbox1 {
+    vertical-align:;
+    flex: ;
+    margin-bottom: ;
+}
+
+.s1label5 {
+    font-weight: bold;
+    flex: 1 1 300px;
+    margin-bottom: 10px
+}
+
+.s1input5 {
+    flex: 1 1 300px;
+    margin-bottom: 30px
+}
+
+.s1checkbox2 {
+    vertical-align: middle;
 }
 
 .s1button {
@@ -176,20 +257,16 @@ li {
 }
 
 .s3button2 {
-     background-color: #2800A0;
+    background-color: #2800A0;
     color: #FFFFFF;
     font-size: 16px;
     padding: 7px 24px 9px;
     border-radius: 15px 15px;
 }
 
-.section4{
-    
-}
+.section4 {}
 
-.s4form{
-    
-}
+.s4form {}
 
 dt {
     color: #2800A0;
@@ -204,8 +281,8 @@ dd {
     font-size: 16px;
 }
 
-.s4prijs{
-     color: #2800A0;
+.s4prijs {
+    color: #2800A0;
     font-family: sans-serif;
     font-size: 24px;
     text-align: right;
@@ -260,9 +337,7 @@ dd {
     margin-bottom: 50px;
 }
 
-.s5h31 {
-    
-}
+.s5h31 {}
 
 .s5a2s1 {
     background-color: #2800A0;
@@ -276,7 +351,7 @@ dd {
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
     padding: 10px;
-     margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .s5h32 {
@@ -300,6 +375,7 @@ dd {
 .s5h33 {
     color: #FF3268;
 }
+
 /*
 .s5a1 {
     display: block;
@@ -326,7 +402,7 @@ dd {
 
 .section6 {
     background-color: #F7F7F7;
-  
+
 }
 
 .s6h3 {
@@ -356,7 +432,7 @@ dd {
     font-weight: bold;
 }
 
-.s7nav1{
+.s7nav1 {
     font-family: sans-serif;
     font-size: 12px;
     color: #909090;
@@ -369,7 +445,7 @@ dd {
     font-weight: bold;
 }
 
-.s7nav2{
+.s7nav2 {
     font-family: sans-serif;
     font-size: 12px;
     color: #909090;
@@ -400,3 +476,281 @@ dd {
     width: 156px;
     margin-bottom: 20px;
 }
+
+
+
+/* scroll naar beneden om de uitwerking te bekijken */
+
+/* Simpele CSS Remedy */
+/* naar een idee van Jen Simmons */
+/* https://github.com/jensimmons/cssremedy */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+button:not(disabled) {
+    cursor: pointer;
+}
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+    --general-color: #012;
+    --general-background: #fff;
+
+    --header-gradient: linear-gradient(#f8a, #fbd);
+
+    --menu-gradient: linear-gradient(#8af, #bdf);
+    --menu-border: #46f;
+
+    --button-color: #fff;
+    --button-background: #f46;
+
+    --title-gradient: linear-gradient(#f46 40%, #f8a 80%);
+}
+
+
+
+
+
+
+/******************************************************/
+/* styling voor de small-screen versie van de website */
+/******************************************************/
+
+/*************/
+/* DE HEADER */
+/*************/
+header {
+    background-color: #FFFFFF;
+    min-height: 4em;
+    padding: 0 1em;
+    line-height: 1;
+
+    /* JOUW CODE HIER - stap 3 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+}
+
+/* alle links in de header */
+header a {
+    padding: .5em 0;
+    color: #00D66C;
+    text-decoration: none;
+}
+
+
+
+
+/*****************/
+/* BEIDE BUTTONS */
+/*****************/
+header button {
+    padding: .5em;
+
+
+    /* standaard styling aanpassen */
+    appearance: none;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: .25em;
+    font: inherit;
+    text-align: center;
+    color: var(--button-color);
+}
+
+header button img {
+    height: 1em;
+}
+
+
+
+/***************/
+/* MENU BUTTON */
+/***************/
+header > button {
+    /* JOUW CODE HIER - stap 3 */
+    order: -1;
+    display: block;
+
+}
+
+
+
+/***************/
+/* SLUIT BUTTON */
+/***************/
+nav button {
+    justify-self: start;
+}
+
+
+
+
+
+/************/
+/* HET MENU */
+/************/
+nav {
+    padding: 1em;
+
+    display: grid;
+    align-content: start;
+    gap: 1em;
+
+
+    background-color: #FFFFFF;
+
+    /* JOUW CODE HIER - stap 1 */
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    /* JOUW CODE HIER - stap 2 */
+    transform: translatex(-100%);
+
+    /* JOUW CODE HIER - stap 4 */
+    transition: transform .3s;
+}
+
+/* als menu open is */
+nav.toonMenu {
+    /* JOUW CODE HIER - stap 4 */
+    transform: translatex(0);
+}
+
+
+
+
+
+/*******************/
+/* LIJST MET LINKS */
+/*******************/
+nav ul {
+    margin: 0;
+    padding: 0em;
+    list-style: none;
+}
+
+
+
+/************************/
+/* EEN LINK IN DE LIJST */
+/************************/
+nav a {
+    /* icon en tekst met gap-je naast elkaar */
+    display: flex;
+    align-items: center;
+    column-gap: .25em;
+
+    border-bottom: solid 1px var(--menu-border);
+}
+
+nav a img {
+    width: auto;
+    height: 2em;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+
+
+
+
+/****************************************************************/
+/* styling voor de header als de browser minimaal 38em breed is */
+/****************************************************************/
+@media (min-width:38em) {
+    header > button {
+        /* JOUW CODE HIER - stap 6 */
+        display: none;
+    }
+
+    nav {
+        /* JOUW CODE HIER - stap 7 */
+        position: static;
+        transform: none;
+        padding: 0;
+
+        background: none;
+    }
+
+    nav button {
+        /* JOUW CODE HIER - stap 6 */
+        display: none;
+    }
+
+    nav ul {
+        /* JOUW CODE HIER - stap 8 */
+        display: flex;
+        gap: 1em;
+    }
+
+    nav a {
+        /* JOUW CODE HIER - stap 9 */
+        flex-direction: column;
+
+        border: none;
+    }
+
+    header > a:last-of-type {
+        /* JOUW CODE HIER - stap 9 */
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+/****************************************************************/
+/* styling voor de header als de browser minimaal 57em breed is */
+/****************************************************************/
+@media (min-width:57em) {
+
+    header > a:last-of-type,
+    nav a {
+        /* JOUW CODE HIER - stap 10 */
+        flex-direction: row;
+    }
+}
+
+
+
+
+
+/***********/
+/* CONTENT */
+/***********/
+/*
+main h1,
+main p {
+  max-width:40rem;
+  margin:0 auto;
+  line-height:1.75;
+}
+
+main h1 {
+  padding:5vw 2.5vw 0;
+  
+  background-image:var(--title-gradient);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+
+main p {
+}
+*/
