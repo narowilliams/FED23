@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Naro Williams
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  zwart
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  surface plane
  
 </details>
 
@@ -273,8 +273,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_summary
+  2. https://codepen.io/shooft/pen/GRxXboQ
+  3. https://codepen.io/shooft/pen/ZEpXmrg
 
 </details>

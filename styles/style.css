@@ -34,6 +34,15 @@ summary {
 /****************/
 
 /* jouw code */
+@font-face {
+    src: url('fonts/nexa-bold.otf') format('nexab');
+    font-family: nexa-bold;
+}
+
+@font-face {
+    font-family: nexa-light;
+    src: url(fonts/nexa-light.otf);
+}
 
 P {
     font-family: sans-serif;
@@ -53,6 +62,60 @@ H3 {
     color: #00D66C;
     font-family: sans-serif;
     font-size: 20px;
+}
+
+H4 {
+    font-family: sans-serif;
+    font-size: 12px;
+
+}
+
+.hoofdnav1 li {
+    border-bottom-color: #909090;
+    border-bottom-style: solid;
+    font-weight: bold;
+        
+}
+
+.hoofdnav2 {
+    font-weight: lighter;
+}
+
+.hoofdnav3 {
+    background-color: #F7F7F7;
+    height: 300px;
+    
+}
+
+.hoofdnav3 article {
+    font-family: sans-serif;
+    color: #000000
+}
+
+.hoofdnav3 a {
+    font-family: sans-serif;
+    color: #000000;
+    border-bottom: none
+}
+
+.hoofdnav3 p {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #909090
+}
+
+.hoofdnav3 summary {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 5px;
+    margin-left: 10px
+}
+
+.hoofdnav3 article {
+    font-weight: lighter;
+    margin: 10px;
 }
 
 .headerlogo {
@@ -91,7 +154,7 @@ input {
 
 .inputdate {
     font-family: sans-serif;
-    letter-spacing: .em;
+    letter-spacing: ;
     color: #606060;
 }
 
@@ -110,6 +173,9 @@ li {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content:center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
    
 }
 
@@ -123,7 +189,7 @@ li {
 .s1input1 {
     width: px;
     flex: 1px;
-    margin-bottom: 30px;  
+    margin-bottom: 20px;  
 }
 
 .s1label2 {
@@ -135,7 +201,7 @@ li {
 .s1input2 {
     width: ;
     flex: 1 1 300px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .s1label3 {
@@ -146,7 +212,7 @@ li {
 
 .s1input3 {
     flex: 1 1 150px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-right: 30px;
 }
 
@@ -158,13 +224,12 @@ li {
 
 .s1input4 {
     flex: 1 1 150px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .s1checkbox1 {
-    vertical-align:;
-    flex: ;
-    margin-bottom: ;
+   margin-top: -10px;
+   margin-right: 5px 
 }
 
 .s1label5 {
@@ -175,7 +240,6 @@ li {
 
 .s1input5 {
     flex: 1 1 300px;
-    margin-bottom: 30px
 }
 
 .s1checkbox2 {
@@ -190,9 +254,18 @@ li {
     font-size: 16px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     display: block;
     font-size: 20px;
     font-weight: bold;
+}
+
+.s1a {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    
 }
 
 .searchimg {
@@ -217,6 +290,14 @@ li {
     height: 25px;
 }
 
+.section2 a {
+    font-family: sans-serif;
+
+}
+
+.section3 {
+    margin-top: 50px
+}
 
 .s3a1 {
     background-color: #F2F2F2;
@@ -228,7 +309,6 @@ li {
     background-color: #F2F2F2;
     border-radius: 15px;
     padding: 10px;
-    opacity: 80%;
     margin-top: 20px;
 }
 
@@ -266,28 +346,45 @@ li {
 
 .section4 {}
 
-.s4form {}
+table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-dt {
+th {
     color: #2800A0;
     font-family: sans-serif;
     font-size: 20px;
     font-weight: bold;
+    text-align: left;
 }
 
-dd {
+.tdVanaf {
     color: #202020;
     font-family: sans-serif;
     font-size: 16px;
+    
 }
-
-.s4prijs {
+    
+.tdPrijs{
     color: #2800A0;
     font-family: sans-serif;
     font-size: 24px;
     text-align: right;
     font-weight: bold;
 }
+
+.BottomRow {
+    border-bottom: solid 1px #606060;
+}
+
+.s4p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .section5 {
     background-color: #F3E5D8;
@@ -337,7 +434,9 @@ dd {
     margin-bottom: 50px;
 }
 
-.s5h31 {}
+.s5h31 {
+    margin-top: 0px
+}
 
 .s5a2s1 {
     background-color: #2800A0;
@@ -356,6 +455,7 @@ dd {
 
 .s5h32 {
     color: #2800A0;
+     margin-top: 0px
 }
 
 .s5a3s1 {
@@ -374,6 +474,7 @@ dd {
 
 .s5h33 {
     color: #FF3268;
+     margin-top: 0px
 }
 
 /*
@@ -402,12 +503,15 @@ dd {
 
 .section6 {
     background-color: #F7F7F7;
+    height: 150px;
 
 }
 
 .s6h3 {
     color: #2800A0;
-    text-align: center
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px
 }
 
 .s6p {
@@ -424,6 +528,10 @@ dd {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.s7 {
+ 
 }
 
 .s7label1 {
@@ -470,6 +578,7 @@ dd {
     color: #909090;
     margin-top: 20px;
     margin-bottom: 10px;
+    
 }
 
 .s8img {
@@ -495,26 +604,6 @@ button:not(disabled) {
 }
 
 
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-:root {
-    --general-color: #012;
-    --general-background: #fff;
-
-    --header-gradient: linear-gradient(#f8a, #fbd);
-
-    --menu-gradient: linear-gradient(#8af, #bdf);
-    --menu-border: #46f;
-
-    --button-color: #fff;
-    --button-background: #f46;
-
-    --title-gradient: linear-gradient(#f46 40%, #f8a 80%);
-}
-
-
-
 
 
 
@@ -530,6 +619,8 @@ header {
     min-height: 4em;
     padding: 0 1em;
     line-height: 1;
+    box-shadow: 0 4px 2px -2px gray;
+    width: 100%;
 
     /* JOUW CODE HIER - stap 3 */
     display: flex;
@@ -754,3 +845,4 @@ main h1 {
 main p {
 }
 */
+
