@@ -283,14 +283,23 @@ li {
     height: 25px;
 }
 
+.section1 a {
+    text-decoration: none;
+}
+
 .section3 {
     background-color: #F3E5D8;
     padding: 15px;
+    line-height: 1.4;
 }
 
 .jeboekingbeherenimg {
     vertical-align: middle;
     height: 25px;
+}
+
+.section2 {
+    line-height: 1.4;
 }
 
 .section2 a {
@@ -347,7 +356,10 @@ li {
     border-radius: 15px 15px;
 }
 
-.section4 {}
+.section4 {
+    
+}
+
 
 table {
     width: 90%;
@@ -387,12 +399,21 @@ th {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    line-height: 1.4;
 }
 
+.pijl {
+    height: 7px;
+    width: 6px;
+    margin-bottom: 1px;
+    margin-right: 3px
+    
+}
 
 .section5 {
     background-color: #F3E5D8;
     padding: 50px;
+    line-height: 1.4;
 }
 
 .s5img1 {
@@ -457,6 +478,7 @@ th {
     margin-bottom: 50px;
 }
 
+
 .s5h32 {
     color: #2800A0;
     margin-top: 0px
@@ -505,12 +527,20 @@ th {
     border-radius: 12px;
 }
 
+.pijltje {
+    height: 8px;
+    width: 7px;
+    margin-bottom: 2px;
+    margin-left: -20px
+}
+
 .s5deel2{
     background-color: #F3E5D8;
     margin-top: -50px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 40px
+    padding-bottom: 40px;
+    line-height: 1.4;
         
 }
 
@@ -544,7 +574,10 @@ th {
     display: block;
 }
 
-.s7 {}
+.section7 {
+    display: flex;
+    flex-wrap: wrap
+}
 
 .s7label1 {
     font-family: sans-serif;
@@ -557,6 +590,10 @@ th {
     font-size: 12px;
     color: #909090;
     margin-top: 20px;
+    margin-left: -40px;
+    width: 185px;
+    flex: 1 1 1;
+    line-height: 1.4;
 }
 
 .s7label2 {
@@ -570,14 +607,29 @@ th {
     font-size: 12px;
     color: #909090;
     margin-top: 20px;
+    margin-left: -100px;
+    width:120px;
+    line-height: 1.4;
 }
 
 .s7img1 {
     width: 156px;
+    height: 50px;
+    display: block;
+    margin-left: 200px;
+    margin-top: 20px;
+        
+    
 }
 
 .s7img2 {
     width: 156px;
+    height: 55px;
+     margin-left: 200px;
+}
+
+.section7 a {
+    text-decoration:none;
 }
 
 .section8 {
@@ -590,7 +642,12 @@ th {
     color: #909090;
     margin-top: 20px;
     margin-bottom: 10px;
+    line-height: 1.4;
+    padding: 10px
+}
 
+.section8 a {
+    text-decoration:none;
 }
 
 .s8img {
@@ -691,7 +748,7 @@ header > button {
 /***************/
 /* SLUIT BUTTON */
 /***************/
-nav button {
+header nav button {
     justify-self: start;
 }
 
@@ -702,7 +759,7 @@ nav button {
 /************/
 /* HET MENU */
 /************/
-nav {
+header nav {
     padding: 1em;
 
     display: grid;
@@ -831,6 +888,13 @@ nav a.active {
 }
 
 
+
+@media (prefers-reduced-motion:no-preference) {
+    #Nav{
+        transition: transform 0.3;
+    }
+    
+}
 
 
 
@@ -972,3 +1036,7 @@ main p {
     font-family: sans-serif;
     color: #2800A0;
     text-decoration: underline;
+    
+}
+
+
