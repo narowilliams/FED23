@@ -74,7 +74,7 @@ H4 {
     border-bottom-color: #909090;
     border-bottom-style: solid;
     font-weight: bold;
-        
+
 }
 
 .hoofdnav2 {
@@ -84,7 +84,7 @@ H4 {
 .hoofdnav3 {
     background-color: #F7F7F7;
     height: 300px;
-    
+
 }
 
 .hoofdnav3 article {
@@ -152,11 +152,6 @@ input {
     height: 40px;
 }
 
-.inputdate {
-    font-family: sans-serif;
-    letter-spacing: ;
-    color: #606060;
-}
 
 ul {
     list-style: none;
@@ -169,14 +164,14 @@ li {
 .s1form {
     font-family: sans-serif;
     font-size: 16px;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content:center;
+    align-content: center;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-   
+
 }
 
 .s1label1 {
@@ -189,7 +184,7 @@ li {
 .s1input1 {
     width: px;
     flex: 1px;
-    margin-bottom: 20px;  
+    margin-bottom: 20px;
 }
 
 .s1label2 {
@@ -206,30 +201,38 @@ li {
 
 .s1label3 {
     font-weight: bold;
-    flex: 1 1 180px;
-    margin-bottom: 10px
+    flex: 1 1 120px;
+    margin-bottom: 10px;
 }
 
 .s1input3 {
-    flex: 1 1 150px;
+    flex: 100px;
     margin-bottom: 20px;
     margin-right: 30px;
+    font-family: sans-serif;
+    letter-spacing: .05em;
+    color: #606060;
+    font-size: 12px;
 }
 
 .s1label4 {
     font-weight: bold;
-    flex: 1 1 150px;
+    flex: 100px;
     margin-bottom: 10px;
 }
 
 .s1input4 {
-    flex: 1 1 150px;
+    flex: 1 1 100px;
     margin-bottom: 20px;
+    font-family: sans-serif;
+    letter-spacing: .05em;
+    color: #606060;
+    font-size: 12px;
 }
 
 .s1checkbox1 {
-   margin-top: -10px;
-   margin-right: 5px 
+    margin-top: -10px;
+    margin-right: 5px
 }
 
 .s1label5 {
@@ -265,7 +268,7 @@ li {
     text-align: center;
     font-family: sans-serif;
     margin-bottom: 10px;
-    
+
 }
 
 .searchimg {
@@ -357,17 +360,17 @@ th {
     font-family: sans-serif;
     font-size: 20px;
     font-weight: bold;
-    text-align: left;
+    text-align: left; 
 }
 
 .tdVanaf {
     color: #202020;
     font-family: sans-serif;
     font-size: 16px;
-    
+
 }
-    
-.tdPrijs{
+
+.tdPrijs {
     color: #2800A0;
     font-family: sans-serif;
     font-size: 24px;
@@ -377,6 +380,7 @@ th {
 
 .BottomRow {
     border-bottom: solid 1px #606060;
+    
 }
 
 .s4p {
@@ -455,7 +459,7 @@ th {
 
 .s5h32 {
     color: #2800A0;
-     margin-top: 0px
+    margin-top: 0px
 }
 
 .s5a3s1 {
@@ -474,7 +478,7 @@ th {
 
 .s5h33 {
     color: #FF3268;
-     margin-top: 0px
+    margin-top: 0px
 }
 
 /*
@@ -500,6 +504,16 @@ th {
     padding: 7px 24px 9px;
     border-radius: 12px;
 }
+
+.s5deel2{
+    background-color: #F3E5D8;
+    margin-top: -50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px
+        
+}
+
 
 .section6 {
     background-color: #F7F7F7;
@@ -530,9 +544,7 @@ th {
     display: block;
 }
 
-.s7 {
- 
-}
+.s7 {}
 
 .s7label1 {
     font-family: sans-serif;
@@ -578,7 +590,7 @@ th {
     color: #909090;
     margin-top: 20px;
     margin-bottom: 10px;
-    
+
 }
 
 .s8img {
@@ -846,3 +858,117 @@ main p {
 }
 */
 
+
+
+
+
+/* PAGINA 2 */
+.pagina2section1 {
+    line-height: 1.4
+}
+.p2s1p1 {
+    font-weight: bold;
+    font-size: 20px
+}
+
+.p2s1p2 {
+    font-weight: lighter;
+    font-size: 16px;
+    color: #909090
+}
+
+.p2s1p3 {
+    font-weight: lighter;
+    font-size: 16px;
+    color: #909090
+}
+
+.pagina2section3 {
+    background-image: url(../images/page2img1.png);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+    line-height: 1.4
+}
+
+.pagina2section3 a {
+    font-family: sans-serif;
+    color: #2800A0;
+    text-decoration: underline;
+}
+
+.p2s3article {
+    width: 90%;
+    background-color: #ffffff;
+    opacity: 80%;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px
+}
+
+.pagina2section4 {
+    line-height: 1.4
+}
+
+.pagina2section4 a {
+    font-family: sans-serif;
+    color: #2800A0;
+    text-decoration: underline;
+}
+.pagina2section5 {
+    background-image: url(../images/page2img2.png);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+    line-height: 1.4
+}
+
+.pagina2section5 a {
+    font-family: sans-serif;
+    color: #2800A0;
+    text-decoration: underline;
+}
+
+.p2s5article {
+    width: 90%;
+    background-color: #ffffff;
+    opacity: 80%;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px
+}
+
+.pagina2section6 {
+    line-height: 1.4
+}
+
+.pagina2section6 a {
+    font-family: sans-serif;
+    color: #2800A0;
+    text-decoration: underline;
+}
+
+.pagina2section7 {
+    background-image: url(../images/page2img3.jpg);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+    line-height: 1.4;
+}
+
+.p2s7article {
+    width: 90%;
+    background-color: #ffffff;
+    opacity: 80%;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px
+}
+
+.pagina2section7 a {
+    font-family: sans-serif;
+    color: #2800A0;
+    text-decoration: underline;
